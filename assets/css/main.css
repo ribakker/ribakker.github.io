@@ -957,7 +957,7 @@ section,
   color: var(--accent-color);
 }
 
-.about .read-more {
+.read-more {
   background: var(--accent-color);
   color: var(--contrast-color);
   font-family: var(--heading-font);
@@ -972,18 +972,18 @@ section,
   justify-content: center;
 }
 
-.about .read-more i {
+.read-more i {
   font-size: 18px;
   margin-left: 5px;
   line-height: 0;
   transition: 0.3s;
 }
 
-.about .read-more:hover {
+.read-more:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.about .read-more:hover i {
+.read-more:hover i {
   transform: translate(5px, 0);
 }
 
